@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1s linear;
   }
 }
 
@@ -35,4 +35,107 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* Logo */
+#logo-dvt{
+  height: 16vmin;
+}
+#name-sl{
+  color: #008402;
+  font-weight: 20px;
+}
+#name-sm{
+  color: red;
+}
+#icon-locat{
+  font-size: 15px;
+}
+#img-langua{
+  height: 2vmin;
+}
+#menu-nav{
+  display: flex;
+  list-style: none;
+  font-size: 15px;
+}
+#menu-nav li b{
+  margin: 0 auto 6px 19px;
+  color: aliceblue;
+}
+#Nav-bg{
+  background-color: #0AAD69;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+#img-content{
+  height: 71.8vmin;
+}
+img{
+  width: 50%;
+  height: 50%;
+}
+
+/*  */
+.tableStudent {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.tableStudent th,
+.tableStudent td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.tableStudent th {
+  background-color: #333;
+  color: white;
+}
+
+.tableStudent tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tableStudent tbody tr:hover {
+  background-color: #ddd;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+form p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
 }
