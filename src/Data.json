@@ -1,0 +1,30 @@
+{
+  "students": [
+    {
+      "name": "Hồ Thị Kiều",
+      "gender": "F",
+      "hometown": "Quảng Trị",
+      "phone": "0123456789"
+    },
+    {
+      "name": "Phan Thị Thu Hương",
+      "gender": "F",
+      "hometown": "Quảng Bình",
+      "phone": "0123456789"
+    },
+    {
+      "name": "Hồ Thị Tài",
+      "gender": "M",
+      "hometown": "Quảng Trị",
+      "phone": "0123456789"
+    },
+    {
+      "name": "Hồ Thị Bích",
+      "gender": "M",
+      "hometown": "Hà Nội",
+      "phone": "0123456789"
+    }]
+}
+ 
+    
+  
